@@ -1,0 +1,11 @@
+{
+  "layer": "top",
+  "position": "top",
+
+  "modules-center": ["hyprland/workspaces"],
+
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "format": "{id}"
+  }
+}

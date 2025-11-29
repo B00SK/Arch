@@ -1,0 +1,38 @@
+/* Import des couleurs générées par pywal */
+@import url("/home/kyyneda/.cache/wal/colors-waybar.css");
+
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Boutons des workspaces */
+#workspaces button {
+  padding: 4px 10px;
+  margin: 4px;
+  border-radius: 6px;
+  background-color: alpha(@background, 0.08); /* transparence */
+  color: @foreground;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+/* Workspace actif (surbrillance) */
+#workspaces button.active {
+  background-color: @color1; /* couleur principale de pywal */
+  border-color: @color5;     /* couleur secondaire pywal */
+  color: @foreground;
+  font-weight: bold;
+}
+
+/* Hover */
+#workspaces button:hover {
+  background-color: alpha(@color1, 0.4);
+}
+
+/* Bar entière */
+window#waybar {
+  background-color: alpha(@background, 0.4);
+}

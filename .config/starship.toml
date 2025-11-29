@@ -1,0 +1,27 @@
+# Prompt format - utilisez des parenthèses au lieu de crochets
+format = """
+┌─($username@$hostname)-\\[($directory)\\]
+└─$character"""
+
+# User
+[username]
+show_always = true
+format = "[$user]($style)"
+style_user = "bold blue"
+
+# Hostname
+[hostname]
+ssh_only = false
+format = "[$hostname]($style)"
+style = "bold green"
+
+# Directory display
+[directory]
+truncation_length = 3
+format = "[$path]($style)"
+style = "bold cyan"
+
+# Prompt symbols
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"

@@ -1,0 +1,58 @@
+[global]
+    # Affichage
+    monitor = 0
+    follow = mouse
+    
+    # Géométrie
+    width = 300
+    height = 300
+    origin = top-right
+    offset = 10x50
+    
+    # Style
+    padding = 15
+    horizontal_padding = 15
+    frame_width = 2
+    separator_color = frame
+    
+    # Texte
+    font = JetBrainsMono Nerd Font 10
+    line_height = 0
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    vertical_alignment = center
+    
+    # Icônes
+    icon_position = left
+    max_icon_size = 64
+    
+    # Comportement
+    sticky_history = yes
+    history_length = 20
+    show_indicators = yes
+    
+    # Transparence et coins arrondis
+    transparency = 10
+    corner_radius = 10
+
+# Urgence basse (couleurs pywal)
+[urgency_low]
+    background = "{background}"
+    foreground = "{foreground}"
+    frame_color = "{color4}"
+    timeout = 5
+
+# Urgence normale
+[urgency_normal]
+    background = "{background}"
+    foreground = "{foreground}"
+    frame_color = "{color6}"
+    timeout = 10
+
+# Urgence haute (erreur)
+[urgency_critical]
+    background = "{background}"
+    foreground = "{color1}"
+    frame_color = "{color1}"
+    timeout = 0
