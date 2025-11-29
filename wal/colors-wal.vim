@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kyyneda/Pictures/sun.webp"
+let background = "#0c060f"
+let foreground = "#e4b9b2"
+let cursor     = "#e4b9b2"
+
+" Colors
+let color0  = "#0c060f"
+let color1  = "#991634"
+let color2  = "#E30E2F"
+let color3  = "#8A0D43"
+let color4  = "#B0144E"
+let color5  = "#D62446"
+let color6  = "#D85847"
+let color7  = "#e4b9b2"
+let color8  = "#9f817c"
+let color9  = "#991634"
+let color10 = "#E30E2F"
+let color11 = "#8A0D43"
+let color12 = "#B0144E"
+let color13 = "#D62446"
+let color14 = "#D85847"
+let color15 = "#e4b9b2"

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kyyneda/Pictures/makishima_wallpaper.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1714",
+        "foreground": "#e6e6e6",
+        "cursor": "#e6e6e6"
+    },
+    "colors": {
+        "color0": "#1f1714",
+        "color1": "#8C9294",
+        "color2": "#909FA6",
+        "color3": "#AEB1B1",
+        "color4": "#BEBFBF",
+        "color5": "#BDC4C5",
+        "color6": "#D2D2D2",
+        "color7": "#e6e6e6",
+        "color8": "#a1a1a1",
+        "color9": "#8C9294",
+        "color10": "#909FA6",
+        "color11": "#AEB1B1",
+        "color12": "#BEBFBF",
+        "color13": "#BDC4C5",
+        "color14": "#D2D2D2",
+        "color15": "#e6e6e6"
+    }
+}

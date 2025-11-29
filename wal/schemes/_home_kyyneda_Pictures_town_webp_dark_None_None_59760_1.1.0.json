@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kyyneda/Pictures/town.webp",
+    "alpha": "100",
+    "special": {
+        "background": "#0c090c",
+        "foreground": "#f5ded1",
+        "cursor": "#f5ded1"
+    },
+    "colors": {
+        "color0": "#0c090c",
+        "color1": "#736189",
+        "color2": "#9B7199",
+        "color3": "#E06596",
+        "color4": "#B0868C",
+        "color5": "#F3A19D",
+        "color6": "#DBC6B8",
+        "color7": "#f5ded1",
+        "color8": "#ab9b92",
+        "color9": "#736189",
+        "color10": "#9B7199",
+        "color11": "#E06596",
+        "color12": "#B0868C",
+        "color13": "#F3A19D",
+        "color14": "#DBC6B8",
+        "color15": "#f5ded1"
+    }
+}
