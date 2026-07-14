@@ -1,6 +1,9 @@
 #!/bin/bash
 DOTFILES=~/dotfiles
 
+# Images
+cp -r ~/Images $DOTFILES/Pictures/
+
 # Tout le dossier .config
 cp -r ~/.config/hypr $DOTFILES/config/
 cp -r ~/.config/waybar $DOTFILES/config/
