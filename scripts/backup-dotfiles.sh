@@ -18,6 +18,10 @@ cp -r ~/.config/eww $DOTFILES/config/
 cp ~/.zshrc $DOTFILES/
 cp ~/dotfiles/scripts/*.sh $DOTFILES/scripts/
 
+# Apps installées
+pacman -Qe > $DOTFILES/packages-official.txt
+pacman -Qm > $DOTFILES/packages-aur.txt
+
 # Système
 mkdir -p $DOTFILES/system
 sudo cp /etc/modprobe.d/mt7921e.conf $DOTFILES/system/
