@@ -85,6 +85,7 @@ hyprpaper 0.8.4-2
 hyprpicker 0.4.7-1
 iw 6.17-1
 kdeconnect 26.04.2-1
+keychain 2.9.8-1
 kitty 0.47.1-1
 librewolf-bin 1:152.0.1_2-1
 libva-nvidia-driver 0.0.17-1
