@@ -16,6 +16,7 @@ cp -r ~/.config/cava $DOTFILES/config/
 cp -r ~/.config/swayosd $DOTFILES/config/
 cp -r ~/.config/wlogout $DOTFILES/config/
 cp -r ~/.config/eww $DOTFILES/config/
+cp -r ~/.config/starship.toml $DOTFILES/config/
 
 # Shell et scripts
 cp ~/.zshrc $DOTFILES/
