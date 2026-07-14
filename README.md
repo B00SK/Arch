@@ -2,7 +2,7 @@
 Configuration personnelle pour mon setup Arch Linux sous Hyprland.
 Ces dotfiles sont adaptés à mon matériel spécifique, lisez avant de copier-coller.
 ## Screenshot
-![Aperçu de mon setup](screen-desktop/screen-desktop/screenshot-20260626-225224.png)
+![Aperçu de mon setup](screen-desktop/screenshot-20260626-225224.png)
 ## Stack
 - WM : Hyprland
 - Shell : Zsh
