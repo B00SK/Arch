@@ -1,0 +1,32 @@
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font";
+}
+.music-widget {
+    background-color: rgba(15, 9, 24, 0.9);
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid rgba(220, 87, 115, 0.3);
+}
+.album-art {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.music-title {
+    color: #f4c3c1;
+    font-size: 14px;
+    font-weight: bold;
+}
+.music-artist {
+    color: #aa8887;
+    font-size: 12px;
+}
+.ctrl-btn {
+    color: #f4c3c1;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.ctrl-btn:hover {
+    background-color: rgba(220, 87, 115, 0.3);
+}

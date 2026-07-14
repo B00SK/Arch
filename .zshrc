@@ -16,14 +16,16 @@ if [ -f ~/.cache/wal/sequences ]; then
 	cat ~/.cache/wal/sequences
 fi
 
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.txt
 
 eval "$(starship init zsh)"
 
-fastfetch --kitty-direct /home/kyyneda/Pictures/suguru_geto.png
+fastfetch --logo /home/kyyneda/.config/fastfetch/assets/feitan_phone.jpg --logo-type kitty --logo-width 27 --logo-height 15
+alias fastfetch="fastfetch --logo /home/kyyneda/.config/fastfetch/assets/feitan_phone.jpg --logo-type kitty --logo-width 27 --logo-height 15"
 
 alias moosync='/usr/bin/moosync'
 
-wal -R
+wal -Rq
+eval "$(starship init zsh)"

@@ -1,0 +1,21 @@
+(defpoll music-title :interval "1s" "playerctl metadata title 2>/dev/null || echo 'Aucune musique'")
+(defpoll music-artist :interval "1s" "playerctl metadata artist 2>/dev/null || echo ''")
+(defpoll music-status :interval "1s" "playerctl status 2>/dev/null || echo 'Stopped'")
+(defpoll music-position :interval "1s" "playerctl position 2>/dev/null || echo 0")
+(defpoll music-length :interval "1s" "playerctl metadata mpris:length 2>/dev/null || echo 0")
+
+(defwidget music-widget []
+  (box :class "music-widget" :orientation "v" :space-evenly false
+    (box :class "music-info" :orientation "v" :space-evenly false
+      (label :class "music-title" :text music-title :limit-width 25)
+      (label :class "music-artist" :text music-artist :limit-width 25))
+    (box :class "music-controls" :orientation "h" :space-evenly true
+      (button :class "ctrl-btn" :onclick "playerctl previous" "⏮")
+      (button :class "ctrl-btn" :onclick "playerctl play-pause" {music-status == "Playing" ? "⏸" : "▶"})
+      (button :class "ctrl-btn" :onclick "playerctl next" "⏭"))))
+
+(defwindow music
+  :monitor 0
+  :geometry (geometry :x "20px" :y "20px" :width "280px" :height "100px" :anchor "top right")
+  :stacking "fg"
+  (music-widget))

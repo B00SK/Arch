@@ -1,9 +1,14 @@
+#!/bin/bash
+source ~/.cache/wal/colors.sh
+WALLPAPER=$(cat ~/.cache/wal/wal)
+
+cat > ~/.config/rofi/theme.rasi << THEME
 * {
-    main-bg:    #0f0918AA;
-    main-fg:    #f4c3c1FF;
-    main-br:    #DC577366;
-    select-bg:  #DC577399;
-    select-fg:  #f4c3c1FF;
+    main-bg:    ${background}AA;
+    main-fg:    ${foreground}FF;
+    main-br:    ${color1}66;
+    select-bg:  ${color1}99;
+    select-fg:  ${foreground}FF;
 }
 window {
     background-color: @main-bg;
@@ -21,7 +26,7 @@ mainbox {
     padding:          0px;
 }
 imagebox {
-    background-image: url("/home/kyyneda/Images/itachi2.jpg", height);
+    background-image: url("$WALLPAPER", height);
     background-color: transparent;
     width:            300px;
     border-radius:    16px 0px 0px 16px;
@@ -34,23 +39,23 @@ rightbox {
     width:            400px;
 }
 inputbar {
-    background-color: #0f0918AA;
+    background-color: ${color0}AA;
     border-radius:    8px;
     padding:          10px;
     children:         [ "prompt", "entry" ];
     border:           1px solid;
-    border-color:     #DC577388;
+    border-color:     ${color1}88;
 }
 prompt {
     background-color: transparent;
-    text-color:       #DC5773;
+    text-color:       ${color1};
     padding:          0px 8px 0px 0px;
 }
 entry {
     background-color: transparent;
-    text-color:       #f4c3c1;
+    text-color:       ${foreground};
     placeholder:      "Rechercher...";
-    placeholder-color: #f4c3c188;
+    placeholder-color: ${foreground}88;
 }
 listview {
     background-color: transparent;
@@ -81,3 +86,4 @@ element-text {
     vertical-align:   0.5;
     horizontal-align: 0.0;
 }
+THEME

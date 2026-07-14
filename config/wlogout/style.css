@@ -1,0 +1,28 @@
+* {
+    background-image: none;
+    box-shadow: none;
+}
+window {
+    background-color: rgba(15, 9, 24, 0.8);
+}
+button {
+    background-color: rgba(15, 9, 24, 0.67);
+    border: 1px solid rgba(220, 87, 115, 0.4);
+    border-radius: 12px;
+    color: #f4c3c1;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    margin: 10px;
+    padding-top: 80px;
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    background-size: 25%;
+}
+button:hover {
+    background-color: rgba(220, 87, 115, 0.53);
+    border-color: #DC5773;
+}
+#lock { background-image: image(url("/home/kyyneda/.config/wlogout/icons/lock.png")); }
+#logout { background-image: image(url("/home/kyyneda/.config/wlogout/icons/logout.png")); }
+#shutdown { background-image: image(url("/home/kyyneda/.config/wlogout/icons/shutdown.png")); }
+#reboot { background-image: image(url("/home/kyyneda/.config/wlogout/icons/reboot.png")); }
