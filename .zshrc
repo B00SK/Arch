@@ -32,3 +32,4 @@ eval $(keychain --eval --quiet ~/.ssh/id_ed25519)
 
 wal -Rq
 eval "$(starship init zsh)"
+
