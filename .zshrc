@@ -28,7 +28,8 @@ alias fastfetch="fastfetch --logo /home/kyyneda/.config/fastfetch/assets/feitan_
 alias moosync='/usr/bin/moosync'
 
 # SSH agent
-eval $(keychain --eval --quiet ~/.ssh/id_ed25519)
+eval $(keychain --eval --quiet ~/.ssh/id_ed25519 2>/dev/null)
+source ~/.keychain/${HOST}-sh 2>/dev/null
 
 wal -Rq
 eval "$(starship init zsh)"

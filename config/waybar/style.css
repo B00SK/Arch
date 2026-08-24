@@ -36,3 +36,8 @@
 window#waybar {
   background-color: alpha(@background, 0.4);
 }
+
+#network, #pulseaudio, #battery {
+    margin: 0 5px;
+    padding: 0 8px;
+}

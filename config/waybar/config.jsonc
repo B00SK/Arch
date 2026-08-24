@@ -16,10 +16,14 @@
     },
 
     "network": {
-	"interface": "wlp6s0f3u1u3",
-        "format-wifi": "  {essid}",
+        "format-wifi": "  {essid} ({signalStrength}%)",
         "format-ethernet": "  {ipaddr}",
-        "format-disconnected": "disconnected"
+        "format-linked": "  {ifname} (No IP)",
+        "format-disconnected": "  disconnected",
+        "tooltip-format-wifi": "{essid} {signalStrength}%\n{ipaddr}",
+        "tooltip-format-ethernet": "{ifname}\n{ipaddr}"
+    },
+
     },
 
     "pulseaudio": {

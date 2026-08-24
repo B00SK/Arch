@@ -130,6 +130,7 @@ showtime 50.0-1
 simple-scan 50.0-1
 sl 5.05-5
 slurp 1.5.0-2
+smartmontools 7.5-1
 snapshot 50.0-1
 starship 1.26.0-1
 stow 2.4.1-1
