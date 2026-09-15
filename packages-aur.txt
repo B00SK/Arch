@@ -6,7 +6,6 @@ ccze 0.2.1-13
 claude-desktop-bin 1.24012.0-1
 eww 0.6.0-1
 freetube-bin 0.25.3-1
-google-chrome 152.0.7977.82-1
 graphite-gtk-theme 2025.07.06-1
 hollywood 1.25-1
 librewolf-bin 1:153.0.0_3-1
@@ -21,7 +20,7 @@ python-pkg_resources 81.0.0-1
 python-pywal 3.3.0-11
 python-torrequest 0.1.0-4
 rig 1.11-1
-sherlock 0.16.0-5
+sherlock 0.16.2-1
 speedometer 2.9-3
 swayosd-git 0.3.2.r0.g42f4a31-1
 wlogout 1.2.2-0
